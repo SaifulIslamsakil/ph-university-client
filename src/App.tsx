@@ -1,8 +1,9 @@
+import Mainlayout from "./components/layout/Mainlayout";
 
 const App = () => {
   return (
-    <div>
-      <h1>helo world</h1>
+    <div style={{maxWidth:1280, width:"full", margin:"auto"}}>
+      <Mainlayout />
     </div>
   );
 };
