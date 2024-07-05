@@ -1,5 +1,3 @@
-
-
 const FacultyDashboard = () => {
     return (
         <div>

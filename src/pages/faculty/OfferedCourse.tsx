@@ -1,5 +1,3 @@
-
-
 const OfferedCourse = () => {
     return (
         <div>

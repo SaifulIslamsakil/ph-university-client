@@ -1,8 +1,8 @@
 import { ReactNode } from "react"
 
 export type TRoute = {
-    path: string,
-    element: ReactNode
+    path: string;
+    element: ReactNode;
 }
 
 export type TUserPath = {
@@ -13,12 +13,17 @@ export type TUserPath = {
 };
 
 export type TSidebarItems = {
-    key: string,
-    label: ReactNode,
-    children?: TSidebarItems[]
+    key: string;
+    label: ReactNode;
+    children?: TSidebarItems[];
 }
 
 export type TAuthState = {
-    user: null | object,
-    token: null | string
+    user: null | object;
+    token: null | string;
+}
+
+export type TLoginFiledData = {
+    userId: string ;
+    password: string;
 }
